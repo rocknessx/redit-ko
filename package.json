@@ -1,0 +1,19 @@
+{
+  "name": "knight-online-plus-game",
+  "version": "1.0.0",
+  "description": "Knight Online temalı artı basma oyunu Reddit Devvit uygulaması",
+  "main": "main.tsx",
+  "scripts": {
+    "dev": "devvit playtest",
+    "upload": "devvit upload",
+    "publish": "devvit publish",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@devvit/public-api": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
